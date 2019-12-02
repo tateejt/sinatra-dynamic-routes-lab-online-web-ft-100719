@@ -31,4 +31,5 @@ class App < Sinatra::Base
     answer = number1 +=number2
     string << answer
   end
+  string
 end
