@@ -30,6 +30,6 @@ class App < Sinatra::Base
     answer = 'Unable to preform this operation'
     
     case params[:operation]
-    
+    when 'add'
   end
 end
