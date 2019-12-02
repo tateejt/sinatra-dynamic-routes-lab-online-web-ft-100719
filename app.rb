@@ -24,12 +24,10 @@ class App < Sinatra::Base
   end
   
   get "/:operation/:number1/:number2" do 
-    string = ""
+    
     number1 = params[:number1]
     number2 = params[:number2]
     
-    answer = number1 += number2
-    string << answer
-    string
+    
   end
 end
